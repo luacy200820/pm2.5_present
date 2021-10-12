@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+        <title>PM2.5空氣指數</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/try_css.css" />
+        <!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+        <noscript>
+            <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    
+        <script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.min.js"></script>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="assets/js/datepicker-zh-TW.js"></script><!-- 繁體中文 -->
+		
+	</head>
+	<body class="right-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1 id="range">2019~2020 | PM2.5每日熱力圖</h1>
+							</header>
+						</div>
+
+					<!-- Nav -->
+					 
+						<nav id="nav">
+							<ul>
+                                <li><a href="chiayipm25.html">首頁</a></li>
+                                <li><a href="leaflet.html">測站觀測</a></li>
+                                <li><a href="compare.html">測站比較</a></li>
+                                <li class="active"><a href="search.html">歷史下載</a></li>
+                                <li><a href="introduction.html">關於空氣品質</a></li>
+							</ul>
+						</nav>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style1">
+
+					<div class="container">
+                        <article id="main" class="special">
+                            <header>
+                                <h3> 
+                                    <div class='info_content' id="heatmap"></div>       
+                            </h3>
+                            </header>
+                            <!-- <section>
+                              
+                            </section> -->
+                        </article>
+						<div class="row gtr-200">
+                           
+							<div class="row">
+                                    <section> 
+                                        <div class="form-inline">
+                                            選擇觀看熱力圖日期:<input type="text" id="datepicker"  style="width: 150px; margin: 5px;">
+                                            <button type="submit" class="btn btn-primary" id="test"
+                                                style="padding: 0.2em 0.6em 0.2em 0.6em;">送出</button>
+                                        </div>
+                                       
+                                        <div class="button_pos">
+                                            <button id="domain-highlight-previous-selector" style="margin: 10px;"
+                                                class="btn btn-info">往前看</button>
+                                            <button id="domain-highlight-next-selector" style="margin: 10px;"
+                                                class="btn btn-info">往後看</button>
+                                        </div>   
+                                    
+                                    </section>
+                                    <section>     
+                                    <div id="heatmap1"></div>
+                                    <div id="cal-heatmap" style="margin-top:20px ;width: 100%; "></div>
+                                   
+                                    
+                                   
+                                    <script src="assets/js/show_hour.js"></script>
+                                    <div class='my-legend'>
+                                        <div class='legend-scale'>
+                                            <ul class='legend-labels'>
+                                                <li><span style='background:#962828;'>&gt;250.5</span>危害</li>
+                                                <li><span style='background:#8F56DA;'>250.4</span>極不健康</li>
+                                                <li><span style='background:#FF6347;'>150.5</span>不健康</li>
+                                                <li><span style='background:#FFA54F;'>54.5</span>易敏感</li>
+                                                <li><span style='background:#fce702;'>35.5</span>普通</li>
+                                                <li><span style='background:#53FF53;'>&lt;15.5</span>良</li>
+                                                <li><span style='background:#43377E;'>-1</span>無數據</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+							
+							</div>
+							<div class="col-8 col-12-mobile" id="content">
+								<article id="main">
+									<header>
+										 
+											<h3>近24小時數值:</h3>
+										 
+									</header>
+									
+									<section>
+										 
+											<!-- <header>
+												<h3>近24小時數值:</h3>
+											</header> -->
+											<div id="box"></div>
+											<div id="box_other"></div>
+										 
+									</section>
+									 
+								</article>
+							</div>
+							<div class="col-4 col-12-mobile" id="sidebar">
+								<hr class="first" />
+								<section>
+									<header>
+										<h3>PM2.5排序</h3>
+									</header>
+		
+									<div id="sort_table"></div>
+		
+		
+								</section>
+								 
+								
+							</div>
+						</div>
+						
+						
+					</div>
+
+				</div>
+
+			 
+				
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,4869 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45053,23.50593 ]
+    },
+    "properties": {
+    "deviceId":6893864898,
+    "locationId":"TW130112A0202912",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.49671,23.48189 ]
+    },
+    "properties": {
+    "deviceId":6886756986,
+    "locationId":"TW130112A0202917",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大雅路一段道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48834,23.48234 ]
+    },
+    "properties": {
+    "deviceId":6898800260,
+    "locationId":"TW130112A0202919",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"文心街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43533,23.508747 ]
+    },
+    "properties": {
+    "deviceId":8935506580,
+    "locationId":"TW130212A0503116",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"1",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43175,23.46126 ]
+    },
+    "properties": {
+    "deviceId":8953388705,
+    "locationId":"TW130212A0503140",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"世賢路鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4450453,23.508663 ]
+    },
+    "properties": {
+    "deviceId":6884225087,
+    "locationId":"TW130112A0202937",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"1",
+    "outdoor":"0",
+    "area":"文化路道路上",
+    "areatype":"交通區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4551925,23.506491 ]
+    },
+    "properties": {
+    "deviceId":6899027986,
+    "locationId":"TW130112A0202911",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"1",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45479,23.507467 ]
+    },
+    "properties": {
+    "deviceId":8929231496,
+    "locationId":"TW130212A0503106",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"1",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46068,23.48592 ]
+    },
+    "properties": {
+    "deviceId":6882559489,
+    "locationId":"TW130112A0203026",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"1",
+    "area":"鄰近代天巡府福安館",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44108,23.46458 ]
+    },
+    "properties": {
+    "deviceId":6781092525,
+    "locationId":"TW140113C0203899",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"1",
+    "area":"嘉義測站",
+    "areatype":"測站比對",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44107,23.46458 ]
+    },
+    "properties": {
+    "deviceId":6766306531,
+    "locationId":"TW140113C0203900",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"1",
+    "area":"嘉義測站",
+    "areatype":"測站比對",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.41241,23.46538 ]
+    },
+    "properties": {
+    "deviceId":6893028783,
+    "locationId":"TW130112A0203081",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"1",
+    "area":"大貴路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44108,23.46458 ]
+    },
+    "properties": {
+    "deviceId":10046719595,
+    "locationId":"CY-6000099",
+    "desc":"Jsene/AQNA-1000",
+    "mobile":"0",
+    "outdoor":"1",
+    "area":"嘉義測站",
+    "areatype":"測站比對",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44107,23.46458 ]
+    },
+    "properties": {
+    "deviceId":10010710232,
+    "locationId":"CY-6000100",
+    "desc":"Jsene/AQNA-1000",
+    "mobile":"0",
+    "outdoor":"1",
+    "area":"嘉義測站",
+    "areatype":"測站比對",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44107,23.46458 ]
+    },
+    "properties": {
+    "deviceId":10046850100,
+    "locationId":"CY-6000098",
+    "desc":"Jsene/AQNA-1000",
+    "mobile":"0",
+    "outdoor":"1",
+    "area":"嘉義測站",
+    "areatype":"測站比對",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45041,23.47402 ]
+    },
+    "properties": {
+    "deviceId":6891167091,
+    "locationId":"TW130112A0202949",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"垂陽路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45024,23.46906 ]
+    },
+    "properties": {
+    "deviceId":6891893888,
+    "locationId":"TW130112A0203075",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45699,23.48689 ]
+    },
+    "properties": {
+    "deviceId":6887466100,
+    "locationId":"TW130112A0203047",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近天后宮",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44289,23.51617 ]
+    },
+    "properties": {
+    "deviceId":6885416039,
+    "locationId":"TW130112A0202991",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"忠孝北街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4546,23.46798 ]
+    },
+    "properties": {
+    "deviceId":6900226503,
+    "locationId":"TW130112A0203077",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.47826,23.47911 ]
+    },
+    "properties": {
+    "deviceId":6889485132,
+    "locationId":"TW130112A0202946",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"蘭潭水庫道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45554,23.48021 ]
+    },
+    "properties": {
+    "deviceId":6884684631,
+    "locationId":"TW130112A0203086",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近共和設攤",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46154,23.47464 ]
+    },
+    "properties": {
+    "deviceId":6897954272,
+    "locationId":"TW130112A0202945",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"體育路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45954,23.50452 ]
+    },
+    "properties": {
+    "deviceId":6890040373,
+    "locationId":"TW130112A0202961",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台林街景道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46373,23.47263 ]
+    },
+    "properties": {
+    "deviceId":6883236480,
+    "locationId":"TW130112A0202985",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"彌陀路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46893,23.49371 ]
+    },
+    "properties": {
+    "deviceId":6881632907,
+    "locationId":"TW130112A0203050",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"東義路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46195,23.46217 ]
+    },
+    "properties": {
+    "deviceId":6896157070,
+    "locationId":"TW130112A0203059",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"宣信街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44922,23.50059 ]
+    },
+    "properties": {
+    "deviceId":6898932900,
+    "locationId":"TW130112A0203068",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近基督教醫院",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45323,23.46934 ]
+    },
+    "properties": {
+    "deviceId":6901054262,
+    "locationId":"TW130112A0203076",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4548,23.46595 ]
+    },
+    "properties": {
+    "deviceId":6885512861,
+    "locationId":"TW130112A0202965",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45583,23.47691 ]
+    },
+    "properties": {
+    "deviceId":6899364967,
+    "locationId":"TW130112A0203093",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近共和設攤",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45794,23.50222 ]
+    },
+    "properties": {
+    "deviceId":6892688817,
+    "locationId":"TW130112A0202960",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台林街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48066,23.46563 ]
+    },
+    "properties": {
+    "deviceId":6888823507,
+    "locationId":"TW130112A0203051",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"環潭公路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44704,23.4556 ]
+    },
+    "properties": {
+    "deviceId":6881463883,
+    "locationId":"TW130112A0203009",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖子內工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48906,23.47862 ]
+    },
+    "properties": {
+    "deviceId":6882468306,
+    "locationId":"TW130112A0202947",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"蘭潭水庫道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45319,23.50302 ]
+    },
+    "properties": {
+    "deviceId":6882667401,
+    "locationId":"TW130112A0202969",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46882,23.47747 ]
+    },
+    "properties": {
+    "deviceId":6893919249,
+    "locationId":"TW130112A0202959",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"聖馬爾定醫院",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45697,23.45929 ]
+    },
+    "properties": {
+    "deviceId":6900476451,
+    "locationId":"TW130112A0203011",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"興美路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4506,23.50399 ]
+    },
+    "properties": {
+    "deviceId":6883761516,
+    "locationId":"TW130112A0202970",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46792,23.48837 ]
+    },
+    "properties": {
+    "deviceId":6898273701,
+    "locationId":"TW130112A0202997",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"圓福路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46037,23.47277 ]
+    },
+    "properties": {
+    "deviceId":6884004522,
+    "locationId":"TW130112A0202967",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45454,23.47749 ]
+    },
+    "properties": {
+    "deviceId":6885669770,
+    "locationId":"TW130112A0203090",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近東公市場",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46617,23.46873 ]
+    },
+    "properties": {
+    "deviceId":6889982970,
+    "locationId":"TW130112A0202984",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"光仁街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44811,23.5073 ]
+    },
+    "properties": {
+    "deviceId":6884809242,
+    "locationId":"TW130112A0202908",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45393,23.4943 ]
+    },
+    "properties": {
+    "deviceId":6899171390,
+    "locationId":"TW130112A0202978",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"鄰近工業區社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48305,23.48028 ]
+    },
+    "properties": {
+    "deviceId":6896951843,
+    "locationId":"TW130112A0202920",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大雅路一段道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46336,23.48883 ]
+    },
+    "properties": {
+    "deviceId":6886594384,
+    "locationId":"TW130112A0203048",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"林森東路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45269,23.49724 ]
+    },
+    "properties": {
+    "deviceId":6897779792,
+    "locationId":"TW130112A0203066",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"鄰近後湖工業區",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45274,23.5055 ]
+    },
+    "properties": {
+    "deviceId":6885915253,
+    "locationId":"TW130112A0202952",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45645,23.49404 ]
+    },
+    "properties": {
+    "deviceId":6886613950,
+    "locationId":"TW130112A0202977",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"鄰近工業區社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45074,23.45675 ]
+    },
+    "properties": {
+    "deviceId":6885762390,
+    "locationId":"TW130112A0203010",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"興美一街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.47175,23.49212 ]
+    },
+    "properties": {
+    "deviceId":6888994375,
+    "locationId":"TW130112A0203073",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近文財殿",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44719,23.4597 ]
+    },
+    "properties": {
+    "deviceId":6890237433,
+    "locationId":"TW130112A0203012",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖子內工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46627,23.49205 ]
+    },
+    "properties": {
+    "deviceId":6895208870,
+    "locationId":"TW130112A0203049",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"義教西路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44116,23.49982 ]
+    },
+    "properties": {
+    "deviceId":6887348804,
+    "locationId":"TW130112A0202989",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"文化路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45508,23.5105 ]
+    },
+    "properties": {
+    "deviceId":6895405989,
+    "locationId":"TW130112A0202964",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.49711,23.48378 ]
+    },
+    "properties": {
+    "deviceId":6899742100,
+    "locationId":"TW130112A0202918",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大雅路一段道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44919,23.48216 ]
+    },
+    "properties": {
+    "deviceId":6895955420,
+    "locationId":"TW130112A0203078",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"民權路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46584,23.46242 ]
+    },
+    "properties": {
+    "deviceId":6893539415,
+    "locationId":"TW130112A0203058",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"宣信街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48292,23.49572 ]
+    },
+    "properties": {
+    "deviceId":6890333624,
+    "locationId":"TW130112A0203071",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"林森東路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.47379,23.47435 ]
+    },
+    "properties": {
+    "deviceId":6889063894,
+    "locationId":"TW130112A0203040",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大雅路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44011,23.50915 ]
+    },
+    "properties": {
+    "deviceId":6888106058,
+    "locationId":"TW130112A0202944",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後厝道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45289,23.50172 ]
+    },
+    "properties": {
+    "deviceId":6891298007,
+    "locationId":"TW130112A0202968",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44649,23.51645 ]
+    },
+    "properties": {
+    "deviceId":6898384820,
+    "locationId":"TW130112A0203024",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"忠孝北街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45512,23.48205 ]
+    },
+    "properties": {
+    "deviceId":6888454991,
+    "locationId":"TW130112A0203094",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近地藏庵",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45691,23.46235 ]
+    },
+    "properties": {
+    "deviceId":6888512803,
+    "locationId":"TW130112A0203030",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"立仁路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46756,23.46649 ]
+    },
+    "properties": {
+    "deviceId":6897207128,
+    "locationId":"TW130112A0203057",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"彌陀路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46465,23.4958 ]
+    },
+    "properties": {
+    "deviceId":6900098402,
+    "locationId":"TW130112A0203054",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"義教街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45707,23.47833 ]
+    },
+    "properties": {
+    "deviceId":6897328731,
+    "locationId":"TW130112A0203089",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近東公市場",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.47047,23.49165 ]
+    },
+    "properties": {
+    "deviceId":6899420403,
+    "locationId":"TW130112A0202995",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"文財殿道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43822,23.50459 ]
+    },
+    "properties": {
+    "deviceId":6934132774,
+    "locationId":"TW130112A0202990",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"文化路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45815,23.4985 ]
+    },
+    "properties": {
+    "deviceId":6891970118,
+    "locationId":"TW130112A0203055",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"義教街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45207,23.51277 ]
+    },
+    "properties": {
+    "deviceId":6892252910,
+    "locationId":"TW130112A0202903",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.49973,23.4811 ]
+    },
+    "properties": {
+    "deviceId":6890437954,
+    "locationId":"TW130112A0202916",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大雅路一段道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46919,23.46488 ]
+    },
+    "properties": {
+    "deviceId":6892820536,
+    "locationId":"TW130112A0202983",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"彌陀路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45849,23.49148 ]
+    },
+    "properties": {
+    "deviceId":6893710032,
+    "locationId":"TW130112A0203056",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"鄰近後湖工業區",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46265,23.46437 ]
+    },
+    "properties": {
+    "deviceId":6890710072,
+    "locationId":"TW130112A0202957",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"立仁路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45578,23.49947 ]
+    },
+    "properties": {
+    "deviceId":6899856638,
+    "locationId":"TW130112A0202963",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45223,23.49896 ]
+    },
+    "properties": {
+    "deviceId":6893134192,
+    "locationId":"TW130112A0203067",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近基督教醫院",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44848,23.48527 ]
+    },
+    "properties": {
+    "deviceId":6890920436,
+    "locationId":"TW130112A0202975",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"嘉義鐵道藝術村道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45347,23.47828 ]
+    },
+    "properties": {
+    "deviceId":6898407402,
+    "locationId":"TW130112A0203097",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近城隍廟",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45347,23.47684 ]
+    },
+    "properties": {
+    "deviceId":6894471783,
+    "locationId":"TW130112A0203098",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近城隍廟",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45377,23.47549 ]
+    },
+    "properties": {
+    "deviceId":6900873714,
+    "locationId":"TW130112A0203084",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"吳鳳北路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45648,23.47961 ]
+    },
+    "properties": {
+    "deviceId":6895585106,
+    "locationId":"TW130112A0203088",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近東公市場",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45484,23.50148 ]
+    },
+    "properties": {
+    "deviceId":6934056396,
+    "locationId":"TW130112A0202962",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44523,23.51232 ]
+    },
+    "properties": {
+    "deviceId":6893215765,
+    "locationId":"TW130112A0202901",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44894,23.51255 ]
+    },
+    "properties": {
+    "deviceId":6899965638,
+    "locationId":"TW130112A0202902",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4543,23.51293 ]
+    },
+    "properties": {
+    "deviceId":6897051204,
+    "locationId":"TW130112A0202904",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4478,23.51024 ]
+    },
+    "properties": {
+    "deviceId":6889848376,
+    "locationId":"TW130112A0202905",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44904,23.51029 ]
+    },
+    "properties": {
+    "deviceId":6892006337,
+    "locationId":"TW130112A0202906",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45378,23.51061 ]
+    },
+    "properties": {
+    "deviceId":6889500447,
+    "locationId":"TW130112A0202907",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44971,23.50731 ]
+    },
+    "properties": {
+    "deviceId":6883870493,
+    "locationId":"TW130112A0202909",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45303,23.50737 ]
+    },
+    "properties": {
+    "deviceId":6883682899,
+    "locationId":"TW130112A0202910",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48353,23.48481 ]
+    },
+    "properties": {
+    "deviceId":6890899427,
+    "locationId":"TW130112A0202921",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"盧義路路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48454,23.48975 ]
+    },
+    "properties": {
+    "deviceId":6895681760,
+    "locationId":"TW130112A0202922",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"盧義路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48357,23.49307 ]
+    },
+    "properties": {
+    "deviceId":6890181225,
+    "locationId":"TW130112A0202923",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"盧義路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45502,23.50475 ]
+    },
+    "properties": {
+    "deviceId":6894090369,
+    "locationId":"TW130112A0202951",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.47062,23.46598 ]
+    },
+    "properties": {
+    "deviceId":6887637087,
+    "locationId":"TW130112A0202958",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"學府路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45784,23.46958 ]
+    },
+    "properties": {
+    "deviceId":6884552043,
+    "locationId":"TW130112A0202966",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45677,23.48398 ]
+    },
+    "properties": {
+    "deviceId":6894641326,
+    "locationId":"TW130112A0202971",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近地藏庵",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45452,23.48483 ]
+    },
+    "properties": {
+    "deviceId":6881887489,
+    "locationId":"TW130112A0202974",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"檜意森活村道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4518,23.49359 ]
+    },
+    "properties": {
+    "deviceId":6895361052,
+    "locationId":"TW130112A0202979",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"嘉北街",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44826,23.48702 ]
+    },
+    "properties": {
+    "deviceId":6893479573,
+    "locationId":"TW130112A0202986",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近嘉義鐵道藝術村",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45313,23.48028 ]
+    },
+    "properties": {
+    "deviceId":6884437173,
+    "locationId":"TW130112A0202950",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"吳鳳北路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45644,23.48339 ]
+    },
+    "properties": {
+    "deviceId":6898701089,
+    "locationId":"TW130112A0203046",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近地藏庵",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46986,23.48998 ]
+    },
+    "properties": {
+    "deviceId":6891409122,
+    "locationId":"TW130112A0202996",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"文財殿道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45063,23.51653 ]
+    },
+    "properties": {
+    "deviceId":6881744304,
+    "locationId":"TW130112A0203025",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"忠孝北街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45202,23.48545 ]
+    },
+    "properties": {
+    "deviceId":6934206329,
+    "locationId":"TW130112A0203045",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近北安宮",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48325,23.47061 ]
+    },
+    "properties": {
+    "deviceId":6886929292,
+    "locationId":"TW130112A0203052",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"環潭公路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45662,23.4746 ]
+    },
+    "properties": {
+    "deviceId":6889774468,
+    "locationId":"TW130112A0203063",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.47668,23.49241 ]
+    },
+    "properties": {
+    "deviceId":6886054489,
+    "locationId":"TW130112A0203072",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"林森東路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45285,23.48166 ]
+    },
+    "properties": {
+    "deviceId":6895768857,
+    "locationId":"TW130112A0203080",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"吳鳳北路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45526,23.47942 ]
+    },
+    "properties": {
+    "deviceId":6897854030,
+    "locationId":"TW130112A0203085",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近城隍廟",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44192,23.49857 ]
+    },
+    "properties": {
+    "deviceId":8937001454,
+    "locationId":"TW130212A0503124",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45688,23.45475 ]
+    },
+    "properties": {
+    "deviceId":8935050202,
+    "locationId":"TW130212A0503115",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"溪興街鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44772,23.51355 ]
+    },
+    "properties": {
+    "deviceId":8929359934,
+    "locationId":"TW130212A0503101",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45672,23.50083 ]
+    },
+    "properties": {
+    "deviceId":8930329048,
+    "locationId":"TW130212A0503107",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44641,23.50614 ]
+    },
+    "properties": {
+    "deviceId":8935498001,
+    "locationId":"TW130212A0503117",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45525,23.47091 ]
+    },
+    "properties": {
+    "deviceId":8953572068,
+    "locationId":"TW130212A0503150",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"吳鳳南路鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48933,23.47488 ]
+    },
+    "properties": {
+    "deviceId":8935107160,
+    "locationId":"TW130212A0503121",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"蘭潭交通",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46178,23.45612 ]
+    },
+    "properties": {
+    "deviceId":8935340999,
+    "locationId":"TW130212A0503119",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"軍輝路鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.48573,23.47468 ]
+    },
+    "properties": {
+    "deviceId":8936209839,
+    "locationId":"TW130212A0503120",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"蘭潭交通",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45081,23.47989 ]
+    },
+    "properties": {
+    "deviceId":8954684309,
+    "locationId":"TW130212A0503143",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45267,23.50145 ]
+    },
+    "properties": {
+    "deviceId":8929574769,
+    "locationId":"TW130212A0503105",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45842,23.486045 ]
+    },
+    "properties": {
+    "deviceId":8957321464,
+    "locationId":"TW130212A0503122",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45624,23.47544 ]
+    },
+    "properties": {
+    "deviceId":8954445118,
+    "locationId":"TW130212A0503134",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45115,23.47603 ]
+    },
+    "properties": {
+    "deviceId":8953853100,
+    "locationId":"TW130212A0503135",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4666,23.48517 ]
+    },
+    "properties": {
+    "deviceId":8936163076,
+    "locationId":"TW130212A0503123",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"五福街鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.47263,23.5009 ]
+    },
+    "properties": {
+    "deviceId":8957222915,
+    "locationId":"TW130212A0503108",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46924,23.49456 ]
+    },
+    "properties": {
+    "deviceId":8929662098,
+    "locationId":"TW130212A0503109",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45064,23.48124 ]
+    },
+    "properties": {
+    "deviceId":8953787317,
+    "locationId":"TW130212A0503145",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45075,23.47745 ]
+    },
+    "properties": {
+    "deviceId":8954235835,
+    "locationId":"TW130212A0503136",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45206,23.51439 ]
+    },
+    "properties": {
+    "deviceId":8929144690,
+    "locationId":"TW130212A0503103",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45257,23.50505 ]
+    },
+    "properties": {
+    "deviceId":8930671674,
+    "locationId":"TW130212A0503104",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45518,23.50368 ]
+    },
+    "properties": {
+    "deviceId":8930058545,
+    "locationId":"TW130212A0503102",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後湖工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.45696,23.48028 ]
+    },
+    "properties": {
+    "deviceId":8953683225,
+    "locationId":"TW130212A0503148",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.46551,23.49545 ]
+    },
+    "properties": {
+    "deviceId":8929484266,
+    "locationId":"TW130212A0503110",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"東區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42681,23.48831 ]
+    },
+    "properties": {
+    "deviceId":6896812991,
+    "locationId":"TW130112A0203060",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近賢北露天燃燒",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42655,23.48925 ]
+    },
+    "properties": {
+    "deviceId":6898625380,
+    "locationId":"TW130112A0203061",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"世賢路二段道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.39966,23.48792 ]
+    },
+    "properties": {
+    "deviceId":6897468272,
+    "locationId":"TW130112A0202930",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"高鐵大道道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44368,23.47865 ]
+    },
+    "properties": {
+    "deviceId":6887958800,
+    "locationId":"TW130112A0203087",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"中正路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44107,23.46458 ]
+    },
+    "properties": {
+    "deviceId":6763969500,
+    "locationId":"TW140113C0203898",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"嘉義測站",
+    "areatype":"測站比對",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4417,23.47004 ]
+    },
+    "properties": {
+    "deviceId":6891077900,
+    "locationId":"TW130112A0202973",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近永和市場南方",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44423,23.46256 ]
+    },
+    "properties": {
+    "deviceId":6897643011,
+    "locationId":"TW130112A0202994",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44084,23.47319 ]
+    },
+    "properties": {
+    "deviceId":6894237563,
+    "locationId":"TW130112A0203064",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近永和市場",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.441071,23.464581 ]
+    },
+    "properties": {
+    "deviceId":6895070388,
+    "locationId":"TW130112C0203100",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"嘉義測站",
+    "areatype":"測站比對",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44717,23.48112 ]
+    },
+    "properties": {
+    "deviceId":6882158816,
+    "locationId":"TW130112A0203082",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"忠義街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44025,23.44686 ]
+    },
+    "properties": {
+    "deviceId":6882875141,
+    "locationId":"TW130112A0203006",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近嘉義焚化廠",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4437,23.49555 ]
+    },
+    "properties": {
+    "deviceId":6894126148,
+    "locationId":"TW130112A0202943",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"文化路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43891,23.49021 ]
+    },
+    "properties": {
+    "deviceId":6887524216,
+    "locationId":"TW130112A0202988",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"保安二路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44461,23.44915 ]
+    },
+    "properties": {
+    "deviceId":6886275400,
+    "locationId":"TW130112A0203005",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖子內工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42441,23.46557 ]
+    },
+    "properties": {
+    "deviceId":6881579508,
+    "locationId":"TW130112A0203032",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"自強街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.417,23.48741 ]
+    },
+    "properties": {
+    "deviceId":6882080614,
+    "locationId":"TW130112A0202955",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近長岡固定污染",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4212,23.47107 ]
+    },
+    "properties": {
+    "deviceId":6883132583,
+    "locationId":"TW130112A0203038",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"玉山路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4176,23.46143 ]
+    },
+    "properties": {
+    "deviceId":6882798883,
+    "locationId":"TW130112A0203031",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大聖路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40551,23.46836 ]
+    },
+    "properties": {
+    "deviceId":6882330511,
+    "locationId":"TW130112A0202928",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"玉山路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44699,23.45039 ]
+    },
+    "properties": {
+    "deviceId":6883367456,
+    "locationId":"TW130112A0203004",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖子內工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43048,23.48876 ]
+    },
+    "properties": {
+    "deviceId":6882994848,
+    "locationId":"TW130112A0202981",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北安街道路上",
+    "areatype":"社區感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43968,23.46635 ]
+    },
+    "properties": {
+    "deviceId":6884112881,
+    "locationId":"TW130112A0202972",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近永和市場南方",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43648,23.45438 ]
+    },
+    "properties": {
+    "deviceId":6883580766,
+    "locationId":"TW130112A0203014",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"民生南路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44951,23.47962 ]
+    },
+    "properties": {
+    "deviceId":6894559955,
+    "locationId":"TW130112A0203096",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"文化路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42544,23.47687 ]
+    },
+    "properties": {
+    "deviceId":6883964150,
+    "locationId":"TW130112A0203035",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"四維路道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44093,23.48516 ]
+    },
+    "properties": {
+    "deviceId":6897189972,
+    "locationId":"TW130112A0203029",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"友忠路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43902,23.45913 ]
+    },
+    "properties": {
+    "deviceId":6896794655,
+    "locationId":"TW130112A0203015",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"新民路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44107,23.46458 ]
+    },
+    "properties": {
+    "deviceId":6900669849,
+    "locationId":"TW130112C0203099",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"嘉義測站",
+    "areatype":"測站比對",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42176,23.47578 ]
+    },
+    "properties": {
+    "deviceId":6894980144,
+    "locationId":"TW130112A0203036",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大同路道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44217,23.45166 ]
+    },
+    "properties": {
+    "deviceId":6886444793,
+    "locationId":"TW130112A0203007",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖子內工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44492,23.46429 ]
+    },
+    "properties": {
+    "deviceId":6886823741,
+    "locationId":"TW130112A0202993",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4206,23.46499 ]
+    },
+    "properties": {
+    "deviceId":6888294527,
+    "locationId":"TW130112A0203019",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"自強街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42412,23.47394 ]
+    },
+    "properties": {
+    "deviceId":6888602417,
+    "locationId":"TW130112A0203034",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大華路道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40046,23.46789 ]
+    },
+    "properties": {
+    "deviceId":6892989468,
+    "locationId":"TW130112A0202924",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"玉山路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43486,23.5065 ]
+    },
+    "properties": {
+    "deviceId":6887198299,
+    "locationId":"TW130112A0202938",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"許厝庄道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43544,23.47689 ]
+    },
+    "properties": {
+    "deviceId":6884341115,
+    "locationId":"TW130112A0203069",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北港路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.39781,23.4933 ]
+    },
+    "properties": {
+    "deviceId":6887730282,
+    "locationId":"TW130112A0202933",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"竹子腳道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44826,23.48786 ]
+    },
+    "properties": {
+    "deviceId":6885126638,
+    "locationId":"TW130112A0202976",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"嘉義鐵道藝術村道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42303,23.46566 ]
+    },
+    "properties": {
+    "deviceId":6885365797,
+    "locationId":"TW130112A0203033",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"鄰近台中榮總嘉義分院",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42693,23.49337 ]
+    },
+    "properties": {
+    "deviceId":6886166131,
+    "locationId":"TW130112A0203023",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北社尾路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43775,23.47907 ]
+    },
+    "properties": {
+    "deviceId":6887030655,
+    "locationId":"TW130112A0203074",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"後驛街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44622,23.46827 ]
+    },
+    "properties": {
+    "deviceId":6889332256,
+    "locationId":"TW130112A0202980",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.41364,23.46252 ]
+    },
+    "properties": {
+    "deviceId":6899586121,
+    "locationId":"TW130112A0203017",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大賢路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43072,23.47303 ]
+    },
+    "properties": {
+    "deviceId":6891344670,
+    "locationId":"TW130112A0202998",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"玉山路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43841,23.48833 ]
+    },
+    "properties": {
+    "deviceId":6893685046,
+    "locationId":"TW130112A0202987",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"興達路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4435,23.4578 ]
+    },
+    "properties": {
+    "deviceId":6889215802,
+    "locationId":"TW130112A0203013",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖子內工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43966,23.48032 ]
+    },
+    "properties": {
+    "deviceId":6887817202,
+    "locationId":"TW130112A0203042",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"中興路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.41132,23.48375 ]
+    },
+    "properties": {
+    "deviceId":6895835798,
+    "locationId":"TW130112A0202927",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大溪路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44427,23.44435 ]
+    },
+    "properties": {
+    "deviceId":6891544445,
+    "locationId":"TW130112A0203002",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖美三路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42346,23.49439 ]
+    },
+    "properties": {
+    "deviceId":6888006634,
+    "locationId":"TW130112A0202934",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北社尾路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44249,23.454 ]
+    },
+    "properties": {
+    "deviceId":6890699175,
+    "locationId":"TW130112A0203008",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖子內工業區",
+    "areatype":"工業感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44082,23.45617 ]
+    },
+    "properties": {
+    "deviceId":6900748634,
+    "locationId":"TW130112A0203000",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"南京路道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44586,23.46671 ]
+    },
+    "properties": {
+    "deviceId":6898515643,
+    "locationId":"TW130112A0202992",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"台灣中油-嘉義訓練所",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44407,23.48727 ]
+    },
+    "properties": {
+    "deviceId":6900327497,
+    "locationId":"TW130112A0203079",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"博愛路一段道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44178,23.47783 ]
+    },
+    "properties": {
+    "deviceId":6888715053,
+    "locationId":"TW130112A0203095",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"仁愛路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44693,23.44587 ]
+    },
+    "properties": {
+    "deviceId":6889692056,
+    "locationId":"TW130112A0203003",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"湖美一路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.39844,23.48977 ]
+    },
+    "properties": {
+    "deviceId":6891611725,
+    "locationId":"TW130112A0202932",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北港路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42015,23.48123 ]
+    },
+    "properties": {
+    "deviceId":6892484006,
+    "locationId":"TW130112A0203037",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"世賢路二段道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43411,23.4755 ]
+    },
+    "properties": {
+    "deviceId":6890553768,
+    "locationId":"TW130112A0203070",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"博愛路二段道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42182,23.48983 ]
+    },
+    "properties": {
+    "deviceId":6900131844,
+    "locationId":"TW130112A0202936",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"賢北露天燃燒",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.441,23.4782 ]
+    },
+    "properties": {
+    "deviceId":6893346620,
+    "locationId":"TW130112A0203044",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近嘉義火車站",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42476,23.48593 ]
+    },
+    "properties": {
+    "deviceId":6892126425,
+    "locationId":"TW130112A0203062",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"泰山二街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43791,23.47245 ]
+    },
+    "properties": {
+    "deviceId":6892332443,
+    "locationId":"TW130112A0202982",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"新建街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43996,23.47454 ]
+    },
+    "properties": {
+    "deviceId":6899606138,
+    "locationId":"TW130112A0203092",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近東公市場",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40819,23.49255 ]
+    },
+    "properties": {
+    "deviceId":6894740874,
+    "locationId":"TW130112A0202956",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"下埤路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42507,23.49572 ]
+    },
+    "properties": {
+    "deviceId":6899286467,
+    "locationId":"TW130112A0203022",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北園街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4308,23.50679 ]
+    },
+    "properties": {
+    "deviceId":6892561449,
+    "locationId":"TW130112A0202939",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"許厝庄道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4209,23.49284 ]
+    },
+    "properties": {
+    "deviceId":6894328861,
+    "locationId":"TW130112A0203021",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北文街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40606,23.492 ]
+    },
+    "properties": {
+    "deviceId":6898118815,
+    "locationId":"TW130112A0202915",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"保福路路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42599,23.46677 ]
+    },
+    "properties": {
+    "deviceId":6896418428,
+    "locationId":"TW130112A0203016",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"世賢路二段",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43079,23.48138 ]
+    },
+    "properties": {
+    "deviceId":6896026953,
+    "locationId":"TW130112A0203027",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"鄰近衛福部嘉義醫院",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43352,23.48429 ]
+    },
+    "properties": {
+    "deviceId":6896269858,
+    "locationId":"TW130112A0202953",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"友愛路道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44086,23.48132 ]
+    },
+    "properties": {
+    "deviceId":6896518053,
+    "locationId":"TW130112A0203041",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"竹文街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44024,23.49275 ]
+    },
+    "properties": {
+    "deviceId":6900925925,
+    "locationId":"TW130112A0202942",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"遼寧二街道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.39577,23.49471 ]
+    },
+    "properties": {
+    "deviceId":6885868699,
+    "locationId":"TW130112A0202913",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"竹子腳路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40639,23.49013 ]
+    },
+    "properties": {
+    "deviceId":6900528198,
+    "locationId":"TW130112A0202914",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"保福路路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40326,23.47452 ]
+    },
+    "properties": {
+    "deviceId":6881963142,
+    "locationId":"TW130112A0202925",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"育人路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40988,23.48121 ]
+    },
+    "properties": {
+    "deviceId":6885253232,
+    "locationId":"TW130112A0202926",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大安街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40497,23.48007 ]
+    },
+    "properties": {
+    "deviceId":6883084220,
+    "locationId":"TW130112A0202929",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大溪路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.39464,23.48861 ]
+    },
+    "properties": {
+    "deviceId":6898095836,
+    "locationId":"TW130112A0202931",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"埤竹路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42298,23.49146 ]
+    },
+    "properties": {
+    "deviceId":6896321309,
+    "locationId":"TW130112A0202935",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北社尾路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43519,23.49414 ]
+    },
+    "properties": {
+    "deviceId":6891702582,
+    "locationId":"TW130112A0202940",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"保安四路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43705,23.49181 ]
+    },
+    "properties": {
+    "deviceId":6883465088,
+    "locationId":"TW130112A0202941",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"永吉三街道路上",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44871,23.47718 ]
+    },
+    "properties": {
+    "deviceId":6884921359,
+    "locationId":"TW130112A0202948",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"國華街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.41724,23.48591 ]
+    },
+    "properties": {
+    "deviceId":6897514027,
+    "locationId":"TW130112A0202954",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近長岡固定污染",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43222,23.47359 ]
+    },
+    "properties": {
+    "deviceId":6892798197,
+    "locationId":"TW130112A0202999",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"玉山路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43957,23.44378 ]
+    },
+    "properties": {
+    "deviceId":6896699488,
+    "locationId":"TW130112A0203001",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"環湖一街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.41682,23.46501 ]
+    },
+    "properties": {
+    "deviceId":6888326554,
+    "locationId":"TW130112A0203018",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大利街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42155,23.46195 ]
+    },
+    "properties": {
+    "deviceId":6882205421,
+    "locationId":"TW130112A0203020",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大聖路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43761,23.48193 ]
+    },
+    "properties": {
+    "deviceId":6886356342,
+    "locationId":"TW130112A0203028",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"友忠路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42845,23.46906 ]
+    },
+    "properties": {
+    "deviceId":6887209159,
+    "locationId":"TW130112A0203039",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"大統路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43431,23.47997 ]
+    },
+    "properties": {
+    "deviceId":6885072682,
+    "locationId":"TW130112A0203043",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"南天門太子行宮",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44468,23.48172 ]
+    },
+    "properties": {
+    "deviceId":6889155751,
+    "locationId":"TW130112A0203053",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"民權路道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44024,23.47354 ]
+    },
+    "properties": {
+    "deviceId":6895116049,
+    "locationId":"TW130112A0203065",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近永和市場",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44699,23.48274 ]
+    },
+    "properties": {
+    "deviceId":6884796607,
+    "locationId":"TW130112A0203083",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"忠義街道路上",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44072,23.47411 ]
+    },
+    "properties": {
+    "deviceId":6894853524,
+    "locationId":"TW130112A0203091",
+    "desc":"EnSense/SAQ-200",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"靠近東公市場",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40283,23.48346 ]
+    },
+    "properties": {
+    "deviceId":8931197616,
+    "locationId":"TW130212A0503112",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44178,23.48886 ]
+    },
+    "properties": {
+    "deviceId":8935699365,
+    "locationId":"TW130212A0503125",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43262,23.48941 ]
+    },
+    "properties": {
+    "deviceId":8936064652,
+    "locationId":"TW130212A0503127",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"北安路鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44575,23.48254 ]
+    },
+    "properties": {
+    "deviceId":8935795047,
+    "locationId":"TW130212A0503129",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"民生北路交通",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44106,23.46167 ]
+    },
+    "properties": {
+    "deviceId":8953076825,
+    "locationId":"TW130212A0503147",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"世賢新明路交通",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40707,23.48129 ]
+    },
+    "properties": {
+    "deviceId":8931471317,
+    "locationId":"TW130212A0503113",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44418,23.4855 ]
+    },
+    "properties": {
+    "deviceId":8937701872,
+    "locationId":"TW130212A0503128",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"長安街鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44052,23.46127 ]
+    },
+    "properties": {
+    "deviceId":8952962877,
+    "locationId":"TW130212A0503149",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"世賢新明路交通",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44683,23.47242 ]
+    },
+    "properties": {
+    "deviceId":8954033618,
+    "locationId":"TW130212A0503144",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"成功街鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44376,23.47247 ]
+    },
+    "properties": {
+    "deviceId":8954743108,
+    "locationId":"TW130212A0503139",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"西門街鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44515,23.47454 ]
+    },
+    "properties": {
+    "deviceId":8954566227,
+    "locationId":"TW130212A0503138",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"康樂街鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44289,23.46921 ]
+    },
+    "properties": {
+    "deviceId":8953922889,
+    "locationId":"TW130212A0503131",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"仁愛路與志昇街鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.42849,23.48155 ]
+    },
+    "properties": {
+    "deviceId":8929752045,
+    "locationId":"TW130212A0503114",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43538,23.48765 ]
+    },
+    "properties": {
+    "deviceId":8937151787,
+    "locationId":"TW130212A0503130",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44657,23.47883 ]
+    },
+    "properties": {
+    "deviceId":8954821245,
+    "locationId":"TW130212A0503137",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"中正路鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43162,23.47223 ]
+    },
+    "properties": {
+    "deviceId":8954367482,
+    "locationId":"TW130212A0503146",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43753,23.46775 ]
+    },
+    "properties": {
+    "deviceId":8953226165,
+    "locationId":"TW130212A0503141",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44406,23.48727 ]
+    },
+    "properties": {
+    "deviceId":8954104684,
+    "locationId":"TW130212A0503133",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"博愛路交通",
+    "areatype":"交通感測",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.40439,23.48083 ]
+    },
+    "properties": {
+    "deviceId":8931057785,
+    "locationId":"TW130212A0503111",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44432,23.49208 ]
+    },
+    "properties": {
+    "deviceId":8935847798,
+    "locationId":"TW130212A0503118",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43565,23.49155 ]
+    },
+    "properties": {
+    "deviceId":8935202570,
+    "locationId":"TW130212A0503126",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"公害陳情監測",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.44096,23.47214 ]
+    },
+    "properties": {
+    "deviceId":8953444763,
+    "locationId":"TW130212A0503132",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"建成街鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.43375,23.46768 ]
+    },
+    "properties": {
+    "deviceId":8953118612,
+    "locationId":"TW130212A0503142",
+    "desc":"EnSense/SAQ-210",
+    "mobile":"0",
+    "outdoor":"0",
+    "area":"上海路鄰里",
+    "areatype":"一般社區",
+    "display":"1",
+    "town":"西區",
+    "county":"嘉義市"
+    }
+  }
+]
+}

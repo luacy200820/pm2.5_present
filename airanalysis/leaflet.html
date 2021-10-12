@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>嘉義市PM2.5分析</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/map_css.css" />
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css" />
+
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@latest/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+        integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+        crossorigin=""></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://remysharp.com/downloads/jquery.marquee.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script src="https://cdn.staticfile.org/jquery/1.8.3/jquery.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/jquery.marquee@1.5.0/jquery.marquee.min.js" type="text/javascript"></script>  -->
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js"
+        charset="utf-8"></script>
+    <!-- <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"> -->
+    </script>
+    <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.6.2/leaflet.css" />
+    <script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.6.2/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.control.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.min.js"></script>
+    <script src="assets/js/leaflet.zoomhome.min.js"></script>
+    <script src="assets/js/heatmap.js"></script>
+    <script
+        src="https://rawgithub.com/ismyrnow/Leaflet.groupedlayercontrol/master/src/leaflet.groupedlayercontrol.js"></script>
+    <script src="assets/js/newheatmap.min.js"></script>
+    <script src="assets/js/leaflet-heatmap.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="assets/js/leaflet_triangle.js"></script>
+    <script src="assets/js/leaflet.idw.js"> </script>
+    <script src="assets/js/kriging.js"></script>
+    <script src="assets/js/world.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="//unpkg.com/leaflet-gesture-handling/dist/leaflet-gesture-handling.min.css" type="text/css">
+    <script src="//unpkg.com/leaflet-gesture-handling"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+</head>
+
+<body class="homepage is-preload">
+    <div id="page-wrapper">
+        <!-- Header -->
+        <div id="header">
+
+            <div class="inner2">
+                <div class="box">
+
+                    <p id='temperature_low'></p>
+                    <p id="humidity"></p>
+
+                    <img id="img1" src="images/sun.png" alt="">
+                    <img id="img2" src="images/wind.png" alt="">
+                    <img id="img3" src="images/rain.png" alt="">
+                    <img id="img4" src="images/sun_cloud_rain.png" alt="">
+                    <img id="img5" src="images/cloud.png" alt="">
+                    <img id="img6" src="images/sun_cloud.png" alt="">
+                    <img id="img7" src="images/rain_thunder.png" alt="">
+                    <script src="assets/js/weather.js"></script>
+                </div>
+            </div>
+            <div class="inner3">
+
+                <div class="marqee">
+                    <ul>
+                        <li id="weather_dec"></li>
+                        <li id="Hday"></li>
+                        <li id="dection"></li>
+                        <li id="where_station"></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <!-- Inner -->
+            <div class="inner">
+                <button id="static">查看即時數據</button>
+                <button id="dynamic">查看動態數據</button>
+                <!-- kriging -->
+                <canvas id="canvasMap" style="display: none;"></canvas>
+                <div id="weathermap"></div>
+
+                <div id="legend-container"></div>
+                <!-- <script src="assets/L.Control.Locate.js"></script> -->
+                <script src="assets/js/leaflet2.js"></script>
+
+            </div>
+            <!-- Nav -->
+            <nav id="nav">
+
+                <ul>
+                    <li><a href="chiayipm25.html" >首頁</a></li>
+                    <li  class="active"><a href="leaflet.html">測站觀測</a></li>
+                    <li><a href="compare.html">測站比較</a></li>
+                    <li><a href="search.html">歷史下載</a></li>
+                    <li><a href="introduction.html">關於空氣品質</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="source">資料來源:EdiGreen、環保署 </br>
+        製作單位: 國立嘉義大學資訊工程學系 </br>
+        指導老師: 陳耀輝 </br>
+        製作者:吳嘉苓、黃柏育、黃智揚、葉詠杰
+    </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

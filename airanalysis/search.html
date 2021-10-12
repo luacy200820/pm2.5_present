@@ -1,0 +1,1244 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>嘉義市空氣盒子歷史資訊</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<style>
+#customers, #title {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+#title th h1{
+	font-size: large;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#title tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+#title tr:hover {background-color: #ddd;}
+#title th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: transparent;
+  /* color: white; */
+}
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(7, 7, 7);
+  color: white;
+}
+.cal_heatmap1{
+	text-align: center;
+}
+	</style>
+</head>
+
+<body class="no-sidebar is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header">
+
+			<!-- Inner -->
+			<div class="inner">
+				<header>
+					<h1>嘉義市空氣盒子歷史資訊</h1>
+				</header>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+                    <li><a href="chiayipm25.html">首頁</a></li>
+                    <li><a href="leaflet.html">測站觀測</a></li>
+                    <li><a href="compare.html">測站比較</a></li>
+                    <li class="active"><a href="search.html">歷史下載</a></li>
+                    <li><a href="introduction.html">關於空氣品質</a></li>
+                </ul>
+			</nav>
+
+		</div>
+
+		<!-- Main -->
+		<div class="wrapper style1">
+
+			<div class="container">
+				<article id="main" class="special">
+					<section>
+						快速跳轉
+						<input type="button" id="info_east" value="東區"  style="margin:3px;" >
+						<input type="button" id="info_west" value="西區"   style="margin:3px;" >
+						<input type="search" class="light-table-filter" data-table="table" placeholder="或輸入測站名稱">
+						<div class="source">資料來源:EdiGreen </br>
+							製作單位: 國立嘉義大學資訊工程學系 </br>
+							指導老師: 陳耀輝 </br>
+							製作者:吳嘉苓、黃柏育、黃智揚、葉詠杰
+						</div>
+					</section>
+				 
+					<section>
+						<table id="title"  class="table" >
+							<!-- <thead class="thead-dark"> -->
+								<tr>
+									<th width="40%">
+										<header>
+											<h1>整體測站</h1>
+										</header>
+									</th>
+									<th width="20%">
+										<div>
+											<!-- <input type="button" value="詳細資訊" onclick="location.href='message.html'"> -->
+											<button id="all_info" type="button" onclick="location.href='message.html'" style="color:white; margin: 3px;">詳細資訊</button>
+										</div>
+									</th>
+									<th width="30%">
+										<form method="post" action="export.php">
+											<button type="submit" name="all" style="color:white; margin: 3px;">下載全測站資訊</button>
+										</form>
+									</th>
+								</tr>
+							<!-- </thead> -->
+
+						</table>
+
+					</section>
+					
+					<section>
+						<header>
+							<h1 id="east">東區</h1>
+						</header>
+						<table id="customers"  class="table">
+							<!-- <thead> -->
+								<tr>
+									<th width="20%">測站名稱</th>
+									<th width="5%">經度</th>
+									<th width="5%">緯度</th>
+									<th width="50%" id="hmap">熱力圖</th>
+									<th width="20%" id="down">下載資料</th>
+								</tr>
+							<!-- </thead> -->
+							<!-- <tbody> -->
+								<tr>
+									<td data-th="測站">嘉義市宏仁女中</td>
+									<td data-th="經度">120.445</td>
+									<td data-th="緯度">23.493</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B05396"
+												onclick="mon(this.value) " style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B05396"
+												onclick="hour(this.value) " style="color:white;">24小時 熱力圖</button>
+											<script src="assets/js/search.js"></script>
+										</div>
+									</td>
+									<td >
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B05396" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B05396')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">Hoanya</td>
+									<td data-th="經度">120.454</td>
+									<td data-th="緯度">23.502</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69C9E"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69C9E"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E69C9E" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E69C9E')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">27/190維新路</td>
+									<td data-th="經度">120.458</td>
+									<td data-th="緯度">23.49</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69B38"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69B38"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E69B38" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E69B38')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市輔仁中學</td>
+									<td data-th="經度">120.455</td>
+									<td data-th="緯度">23.461</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053C2"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053C2"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B053C2" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B053C2')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市立大業國民中學</td>
+									<td data-th="經度">120.454</td>
+									<td data-th="緯度">23.462</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053B2"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053B2"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B053B2" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B053B2')">前處理資料</button>
+									</td>
+
+								</tr>
+								<tr>
+									<td data-th="測站">RayHome</td>
+									<td data-th="經度">120.457</td>
+									<td data-th="緯度">23.455</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF886"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF886"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF886" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38EBF886')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市宣信國小</td>
+									<td data-th="經度">120.459</td>
+									<td data-th="緯度">23.47</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB4"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB4"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB4" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEB4')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市東吳高職</td>
+									<td data-th="經度">120.461</td>
+									<td data-th="緯度">23.469</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B0539E"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B0539E"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B0539E" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B0539E')">前處理資料</button>
+
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">school-2</td>
+									<td data-th="經度">120.455</td>
+									<td data-th="緯度">23.475</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEC6"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEC6"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEC6" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEC6')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">Motacila alba 崇文天下中庭</td>
+									<td data-th="經度">120.452</td>
+									<td data-th="緯度">23.474</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B6FC"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B6FC"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B6FC" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E2B6FC')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">third brother food</td>
+									<td data-th="經度">120.454</td>
+									<td data-th="緯度">23.477</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF902"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF902"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF902" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38EBF902')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">永慶不動產嘉義林森店</td>
+									<td data-th="經度">120.449</td>
+									<td data-th="緯度">23.477</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028A12"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028A12"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC028A12" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC028A12')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市-蘭潭國小</td>
+									<td data-th="經度">120.47</td>
+									<td data-th="緯度">23.474</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA6"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA6"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA6" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEA6')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">人文新境牙醫診所</td>
+									<td data-th="經度">120.49</td>
+									<td data-th="緯度">23.481</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69C3C"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69C3C"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E69C3C" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E69C3C')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">NCYU-EMP-01</td>
+									<td data-th="經度">120.484</td>
+									<td data-th="緯度">23.471</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B0535E"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B0535E"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B0535E" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B0535E')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市文雅國小</td>
+									<td data-th="經度">120.487</td>
+									<td data-th="緯度">23.483</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D46C"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D46C"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D46C" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7D46C')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">綠築山莊</td>
+									<td data-th="經度">120.48</td>
+									<td data-th="緯度">23.485</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B530"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B530"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B530" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E2B530')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">隱居</td>
+									<td data-th="經度">120.468</td>
+									<td data-th="緯度">23.489</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38F6FF94"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38F6FF94"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38F6FF94" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38F6FF94')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市林森國民小學Airbox2</td>
+									<td data-th="經度">120.466</td>
+									<td data-th="緯度">23.489</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA4"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA4"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA4" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEA4')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">lianghome</td>
+									<td data-th="經度">120.457</td>
+									<td data-th="緯度">23.492</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69E24"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69E24"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E69E24" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E69E24')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市立北興國中</td>
+									<td data-th="經度">120.454</td>
+									<td data-th="緯度">23.491</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053A4"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053A4"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B053A4" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B053A4')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市垂楊國小</td>
+									<td data-th="經度">120.438</td>
+									<td data-th="緯度">23.472</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB8"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB8"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB8" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEB8')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">崇文國小空氣盒子</td>
+									<td data-th="經度">120.453</td>
+									<td data-th="緯度">23.472</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D5A2"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D5A2"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D5A2" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7D5A2')">前處理資料</button>
+									</td>
+
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市-國立嘉義高中</td>
+									<td data-th="經度">120.464</td>
+									<td data-th="緯度">23.479</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053D6"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053D6"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B053D6" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B053D6')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">金龍街</td>
+									<td data-th="經度">120.467</td>
+									<td data-th="緯度">23.477</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69CE4"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69CE4"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E69CE4" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E69CE4')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">ws-air</td>
+									<td data-th="經度">120.488</td>
+									<td data-th="緯度">23.484</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69B30"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69B30"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E69B30" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E69B30')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">精忠國小</td>
+									<td data-th="經度">120.479</td>
+									<td data-th="緯度">23.491</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA8"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA8"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA8" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEA8')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">仁義空氣盒子</td>
+									<td data-th="經度">120.486</td>
+									<td data-th="緯度">23.459</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053BA"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B053BA"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B053BA" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B053BA')">前處理資料</button>
+									</td>
+								</tr>
+							 
+								<tr>
+									<td data-th="測站">Wenchangpark</td>
+									<td data-th="經度">120.455</td>
+									<td data-th="緯度">23.478</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028762"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028762"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC028762" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC028762')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">Temple</td>
+									<td data-th="經度">120.455</td>
+									<td data-th="緯度">23.477</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028764"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028764"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC028764" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC028764')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">109mtes-eastmarket</td>
+									<td data-th="經度">120.453</td>
+									<td data-th="緯度">23.478</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028768"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028768"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC028768" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC028768')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市興安國小</td>
+									<td data-th="經度">120.455</td>
+									<td data-th="緯度">23.459</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEAC"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEAC"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEAC" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEAC')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市立南興國中</td>
+									<td data-th="經度">120.461</td>
+									<td data-th="緯度">23.468</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B05456"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B05456"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B05456" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B05456')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">601-1</td>
+									<td data-th="經度">120.455364</td>
+									<td data-th="緯度">23.475206</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC02877A"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC02877A"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC02877A" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC02877A')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">601-2</td>
+									<td data-th="經度">120.455</td>
+									<td data-th="緯度">23.474</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF7F2"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF7F2"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38EBF7F2" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38EBF7F2')">前處理資料</button>
+									</td>
+								</tr>
+									<tr>
+									<td data-th="測站">school-1</td>
+									<td data-th="經度">120.4553557</td>
+									<td data-th="緯度">23.4762137</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC245F56"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC245F56"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC245F56" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC245F56')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">604</td>
+									<td data-th="經度">120.455752</td>
+									<td data-th="緯度">23.474655</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028628"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028628"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC028628" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC028628')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">603</td>
+									<td data-th="經度">120.455423</td>
+									<td data-th="緯度">23.475188</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC02868A"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC02868A"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC02868A" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC02868A')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">602</td>
+									<td data-th="經度">120.45541</td>
+									<td data-th="緯度">23.474923</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC0286A0"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC0286A0"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC0286A0" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC0286A0')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">mtes music</td>
+									<td data-th="經度">120.455245</td>
+									<td data-th="緯度">23.475974</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028688"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="08BEAC028688"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="08BEAC028688" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('08BEAC028688')">前處理資料</button>
+									</td>
+								</tr>
+								
+								
+
+							<!-- </tbody> -->
+						</table>
+					</section>
+					<section>
+						<header>
+							<h1 id="west">西區</h1>
+						</header>
+						<table id="customers"  class="table">
+							<!-- <thead> -->
+								<tr>
+									<th width="20%">測站名稱</th>
+									<th width="5%">經度</th>
+									<th width="5%">緯度</th>
+									<th width="50%" id="hmap">熱力圖</th>
+									<th width="20%" id="down">下載資料</th>
+								</tr>
+							<!-- </thead> -->
+							<!-- <tbody> -->
+								<tr>
+									<td data-th="測站">北社尾公園旁</td>
+									<td data-th="經度">120.424</td>
+									<td data-th="緯度">23.493</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B4CA"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B4CA"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+											<!-- <script src="assets/js/search.js"></script> -->
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B4CA" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+												
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E2B4CA')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市僑平國小</td>
+									<td data-th="經度">120.432</td>
+									<td data-th="緯度">23.484</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D388"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D388"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+											<script src="assets/js/search.js"></script>
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7D388" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+												
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7D388')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">Addison</td>
+									<td data-th="經度">120.426</td>
+									<td data-th="緯度">23.48</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69E36"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E69E36"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E69E36" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E69E36')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市港坪國小</td>
+									<td data-th="經度">120.424 </td>
+									<td data-th="緯度">23.479 </td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA0"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA0"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEA0" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEA0')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">榴槤之家</td>
+									<td data-th="經度">120.422</td>
+									<td data-th="緯度">23.473</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B6E8"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B6E8"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B6E8" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E2B6E8')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市育人國小</td>
+									<td data-th="經度">120.415</td>
+									<td data-th="緯度">23.472</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEAE"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEAE"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEAE" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEAE')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">KT</td>
+									<td data-th="經度">120.417</td>
+									<td data-th="緯度">23.464</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38AF47B0"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38AF47B0"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38AF47B0" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38AF47B0')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市民生國中</td>
+									<td data-th="經度">120.439</td>
+									<td data-th="緯度">23.464</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38B0522C"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38B0522C"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38B0522C" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38B0522C')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">嘉義市大同國小</td>
+									<td data-th="經度">120.446</td>
+									<td data-th="緯度">23.471</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB6"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB6"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38C7CEB6" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38C7CEB6')">前處理資料</button>
+									</td>
+								</tr>
+								<tr>
+									<td data-th="測站">Yu室內</td>
+									<td data-th="經度">120.411</td>
+									<td data-th="緯度">23.471</td>
+									<td>
+										<div>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B588"
+												onclick="mon(this.value)" style="color:white;">一個月 熱力圖</button>
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B588"
+												onclick="hour(this.value)" style="color:white;">24小時 熱力圖</button>
+										</div>
+									</td>
+									<td>
+										<form method="post" action="export.php">
+											<button class="cal_heatmap1" type="submit" value="74DA38E2B588" name="device"
+												style="color:white;">&ensp;原始資料&ensp;</button>
+										</form>
+										<button class="btn_down" onclick="downloadFile('74DA38E2B588')">前處理資料</button>
+									</td>
+								</tr>
+
+							<!-- </tbody> -->
+						</table>
+						
+					</section>
+					
+					<img src="images/arrowup.png" id="back_home"   />
+					<!-- <div class="float-button">
+						<img src="images/marker-icon-black.png" alt="">
+						
+					</div> -->
+				</article>
+	
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
